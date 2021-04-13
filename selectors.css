@@ -5,6 +5,23 @@ h1{
     color:#9b59b6;
 }
 
+div{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding:20px;
+    border:1px solid black;
+}
+
+div > *{
+    margin:20px;
+}
+
+p{
+    padding:10px;
+}
+
 h2{
     color:orange;
 }
