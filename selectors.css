@@ -14,6 +14,19 @@ div{
     border:1px solid black;
 }
 
+div:nth-child(3){
+    flex-direction: column;
+}
+
+div:nth-child(4){
+    flex-direction: row-reverse;
+}
+
+div p:nth-child(3){
+    order:1;
+}
+
+
 div > *{
     margin:20px;
 }
